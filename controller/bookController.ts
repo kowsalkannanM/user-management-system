@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import Book from '../models/book';
+import Book from '../models/Book';
 import { sendResponse, sendErrorResponse } from '../helpers/responses';
 import { STATUS_CODE } from '../helpers/constants/status-code';
 import { STATUS_MESSAGE } from '../helpers/constants/status-message';
